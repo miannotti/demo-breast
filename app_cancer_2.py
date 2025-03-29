@@ -11,7 +11,7 @@ from sklearn.datasets import load_breast_cancer
 # Configuración
 st.set_page_config(page_title="Clasificador de Cáncer de Mama", layout="wide")
 st.title("🧬 Clasificador de Cáncer de Mama")
-shap.initjs()
+#shap.initjs()
 
 # Cargar modelo y dataset
 modelo = joblib.load("modelo_cancer.pkl")
