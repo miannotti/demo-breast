@@ -8,3 +8,4 @@ shap
 reportlab
 matplotlib
 seaborn
+ipython
